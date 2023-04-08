@@ -1,15 +1,19 @@
 import React from "react";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Navbar from "./components/Navbar";
+
+// Header (contains navbar)
+// Body (contains the different parts of the portfolio to go through)
+// Footer (contains the linkedIn, github, etc. logos)
+import Header from "./components/header/Header";
+import Body from "./components/body/Body";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     //fragment
   <>
     <Header />
-    {/* <Content /> */}
-    {/* <Footer /> */}
+    <Body />
+    <Footer />
   </>
   );
 }

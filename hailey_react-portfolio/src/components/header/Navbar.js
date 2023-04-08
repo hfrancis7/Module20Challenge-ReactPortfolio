@@ -1,11 +1,9 @@
 import React from 'react'
 
-export default function Header() {
+export default function Navbar() {
   return (
-    <>
-      <header class="">
-            <h1 class="">Hailey D. Francis</h1>
-            <nav class="">
+    <div>
+      <nav class="">
                 <ul class="">
                     <li class=""><a class="" href="#About-Me">About Me</a></li>
                     <li class=""><a class="" href="#Work">Work</a></li>
@@ -13,7 +11,6 @@ export default function Header() {
                     <li class=""><a class="" href="#Resume">Resume</a></li>
                 </ul>
             </nav>
-        </header>
-    </>
+    </div>
   )
 }
