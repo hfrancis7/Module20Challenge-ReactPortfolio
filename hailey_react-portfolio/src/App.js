@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 // Header (contains navbar)
 // Body (contains the different parts of the portfolio to go through)
@@ -10,11 +10,12 @@ import Footer from "./components/Footer";
 import './styles/reset.css'
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About Me');
   return (
     //fragment
   <>
-    <Header />
-    <Body />
+    <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+    <Body/>
     <Footer />
   </>
   );

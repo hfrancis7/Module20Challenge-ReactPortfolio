@@ -5,18 +5,26 @@ import Portfolio from './Portfolio'
 import ContactMe from './ContactMe'
 import Resume from './Resume'
 
-export default function Body() {
+export default function Body({currentPage}) {
+  const renderPage = () => {
+    if(currentPage === 'About Me'){
+      return <AboutMe />
+    }
+    if(currentPage === 'Portfolio'){
+      return <Portfolio />
+    }
+    if(currentPage === "Contact Me"){
+      return <ContactMe />
+    }
+    if(currentPage === "Resume"){
+      return <Resume />
+    }
+  }
+
   return (
     //TODO: Conditional for AboutMe, Portfolio, ContactMe, and Resume
     <>
-      <h2>About Me</h2>
-      <AboutMe />
-      <h2>Portfolio</h2>
-      <Portfolio />
-      <h2>Contact Me</h2>
-      <ContactMe />
-      <h2>Resume</h2>
-      <Resume />
+      {renderPage()}
     </>
   )
 }
