@@ -7,6 +7,8 @@ import Header from "./components/header/Header";
 import Body from "./components/body/Body";
 import Footer from "./components/Footer";
 
+import './styles/reset.css'
+
 function App() {
   return (
     //fragment

@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function AboutMe() {
   return (
+    //TODO: Figure out how to put image
     <>
         <div>IMAGE GOES HERE</div>
         <p>I graduated in Spring 2022 from the University of North Florida with a degree in Computer Science and a Minor in Mathematics. I am currently enrolled in UCF's October 2022 Part-Time 24 Week Web Development bootcamp in an attempt to gain better professional skillset to succeed in the workforce.</p> 
