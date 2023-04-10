@@ -1,3 +1,8 @@
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -10,6 +15,7 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  background-color: white;
 }
 
 .middle {
@@ -36,4 +42,15 @@
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+@media screen and (max-width: 912px){
+  .portfolio{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .container{
+    width: 100%;
+  }
 }

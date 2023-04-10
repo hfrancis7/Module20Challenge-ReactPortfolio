@@ -1,5 +1,10 @@
 .resumeFrame{
-    width: 100%; 
+    width: 80%; 
     height: 800px; 
     border: 1px solid gray;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: center;
 }

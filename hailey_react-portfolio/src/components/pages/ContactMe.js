@@ -45,6 +45,7 @@ export default function ContactMe() {
 
   return (
     <>
+    <h1>Contact Me</h1>
       <form className="form">
         <p>Name:</p>
         <input
