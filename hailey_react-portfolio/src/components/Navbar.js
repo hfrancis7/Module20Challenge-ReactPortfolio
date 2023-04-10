@@ -4,7 +4,6 @@ import '../styles/Header.css';
 
 export default function Navbar({currentPage, handlePageChange}) {
   return (
-    <div>
       <nav class="navbar-container">
             <ul class="navbar-style">
                 <li><a href="#About-Me" 
@@ -28,6 +27,5 @@ export default function Navbar({currentPage, handlePageChange}) {
                 >Resume</a></li>
             </ul>
         </nav>
-    </div>
   )
 }

@@ -2,11 +2,15 @@
     display: flex;
     justify-content: space-between;
     background-color: darkorchid;
+    padding: 10px;
 }
 
 .hailey-title{
+    display:block;
     color: white;
     padding: 10px;
+    background-color: plum;
+    border-radius: 5px;
 }
 
 /*NAVBAR-STYLING*/
@@ -19,7 +23,7 @@
     padding: 10px;
 }
 .navbar-style > *:hover{
-    color: fuchsia;
+    color: cadetblue;
 }
 .navbar-style > * > *{
     text-decoration: none;
@@ -35,8 +39,34 @@
 }
 
 .nav-link-active:hover, .nav-link:hover{
-    color: fuchsia;
+    color: cadetblue;
     font-weight: bold;
+}
+
+@media screen and (max-width: 912px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+    .navbar-style{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hailey-title{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 60px;
+    }
+    .navbar-style > *{
+        color: white;
+        padding: 0px;
+        font-size: 20px;
+    }
 }
 
 

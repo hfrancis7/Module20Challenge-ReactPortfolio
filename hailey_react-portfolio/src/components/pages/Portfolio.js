@@ -3,7 +3,7 @@ import "../../styles/Portfolio.css"
 
 export default function Portfolio() {
   return (
-    <>
+    <div class="portfolio">
     <h1>Portfolio</h1>
 
     <div class="portfolio-flex-wrap">
@@ -80,6 +80,6 @@ export default function Portfolio() {
         </figure>
     </div>
 
-    </>
+    </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
+import "../../styles/ContactMe.css"
 
 export default function ContactMe() {
   // Create state variables for the fields in the form
@@ -35,16 +36,21 @@ export default function ContactMe() {
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
+    if(!message){
+      setErrorMessage('Please enter in a message before submitting.');
+      return;
+    }
     alert(`Thank you, ${name}!`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setMessage('');
     setEmail('');
+    setErrorMessage('');
   };
 
   return (
-    <>
+    <div class="contactme">
     <h1>Contact Me</h1>
       <form className="form">
         <p>Name:</p>
@@ -64,20 +70,21 @@ export default function ContactMe() {
           placeholder=""
         />
         <p>Message:</p>
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="textbox"
+          cols="50"
+          rows= "10"
           placeholder=""
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        ></textarea><br></br>
+        <button class="button" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-    </>
+    </div>
   )
 }

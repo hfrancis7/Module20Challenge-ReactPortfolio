@@ -3,6 +3,10 @@
   flex-wrap: wrap;
 }
 
+.portfolio{
+  padding: 10px;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -48,7 +52,7 @@
 }
 
 .text:hover{
-  color: fuchsia;
+  color: cadetblue;
   font-weight: bold;
 }
 
