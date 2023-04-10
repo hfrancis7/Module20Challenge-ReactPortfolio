@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/hailey-portfolio/static/css/main.d61b1082.css",
-    "main.js": "/hailey-portfolio/static/js/main.38962a4b.js",
-    "index.html": "/hailey-portfolio/index.html",
-    "main.d61b1082.css.map": "/hailey-portfolio/static/css/main.d61b1082.css.map",
-    "main.38962a4b.js.map": "/hailey-portfolio/static/js/main.38962a4b.js.map"
+    "main.css": "/Module20Challenge-ReactPortfolio/static/css/main.d61b1082.css",
+    "main.js": "/Module20Challenge-ReactPortfolio/static/js/main.38962a4b.js",
+    "index.html": "/Module20Challenge-ReactPortfolio/index.html",
+    "main.d61b1082.css.map": "/Module20Challenge-ReactPortfolio/static/css/main.d61b1082.css.map",
+    "main.38962a4b.js.map": "/Module20Challenge-ReactPortfolio/static/js/main.38962a4b.js.map"
   },
   "entrypoints": [
     "static/css/main.d61b1082.css",
