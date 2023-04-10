@@ -32,9 +32,9 @@ export default function PortfolioContainer() {
             <h1 class="hailey-title">Hailey D. Francis</h1>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
-      <body>
+      <main>
         {renderPage()}
-      </body>
+      </main>
       <footer>
         
       </footer>
