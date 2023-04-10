@@ -52,6 +52,7 @@ export default function ContactMe() {
   return (
     <div class="contactme">
     <h1>Contact Me</h1>
+    <p>(Currently no working backend, contact hfran7@yahoo.com or 904-404-6577 if you would like to get in touch!)</p>
       <form className="form">
         <p>Name:</p>
         <input
