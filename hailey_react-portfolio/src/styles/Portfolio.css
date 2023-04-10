@@ -16,6 +16,7 @@
   transition: .5s ease;
   backface-visibility: hidden;
   background-color: white;
+  border: 3px solid darkorchid;
 }
 
 .middle {
@@ -43,6 +44,12 @@
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  text-decoration: none;
+}
+
+.text:hover{
+  color: fuchsia;
+  font-weight: bold;
 }
 
 .github-icon{

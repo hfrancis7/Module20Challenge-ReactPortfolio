@@ -7,7 +7,6 @@ export default function Portfolio() {
     <h1>Portfolio</h1>
 
     <div class="portfolio-flex-wrap">
-
         <figure class="container">
           <img src="./images/recibeet.jpg" alt="ReciBEET" class="image"></img>
           <div class="middle">
@@ -68,6 +67,17 @@ export default function Portfolio() {
           </div>
         </figure>
 
+        <figure class="container">
+          <img src="./images/prework.png" alt="Prework Study Guide" class="image"></img>
+          <div class="middle">
+            <div class="text">
+              <a class="text" href="https://hfrancis7.github.io/prework-study-guide/" target="_blank" rel="noreferrer">Prework Study Guide</a>
+              <a href="https://github.com/hfrancis7/prework-study-guide" target="_blank" rel="noreferrer">
+                <img src="./images/github-mark-white.png" alt="github logo" class="github-icon"></img>
+              </a>
+              </div> 
+          </div>
+        </figure>
     </div>
 
     </>

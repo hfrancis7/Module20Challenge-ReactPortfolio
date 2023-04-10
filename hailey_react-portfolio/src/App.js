@@ -1,7 +1,7 @@
 import React from "react";
-import PortfolioContainer from "./components/PageContainer";
+import PageContainer from "./components/PageContainer";
 import "./styles/Background.css"
 
-const App = () => <PortfolioContainer />;
+const App = () => <PageContainer />;
 
 export default App;
