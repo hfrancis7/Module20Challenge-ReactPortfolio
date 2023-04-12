@@ -1,5 +1,11 @@
 import React from 'react'
 import "../../styles/Portfolio.css"
+import ReciBEET from "../../images/recibeet.jpg"
+import BeatsEats from "../../images/BeatsEats.png"
+import TechBlog from "../../images/TechBlog.jpg"
+import WeatherDashboard from "../../images/WeatherDashboard.jpg"
+import CodingQuiz from "../../images/CodingQuiz.jpg"
+import prework from "../../images/prework.png"
 
 export default function Portfolio() {
   return (
@@ -8,7 +14,7 @@ export default function Portfolio() {
 
     <div class="portfolio-flex-wrap">
         <figure class="container">
-          <img src="./images/recibeet.jpg" alt="ReciBEET" class="image"></img>
+          <img src={ReciBEET} alt="ReciBEET" class="image"></img>
           <div class="middle">
             <div class="text text-success">
               <a class="text" href="https://recibeet-2.herokuapp.com/" target="_blank" rel="noreferrer">ReciBEET</a>
@@ -20,7 +26,7 @@ export default function Portfolio() {
         </figure>
 
         <figure class="container">
-          <img src="./images/BeatsEats.png" alt="Beats And Eats" class="image"></img>
+          <img src={BeatsEats} alt="Beats And Eats" class="image"></img>
           <div class="middle">
             <div class="text">
               <a class="text" href="https://shobannah.github.io/BeatsAndEats/" target="_blank" rel="noreferrer">Beats & Eats</a>
@@ -32,7 +38,7 @@ export default function Portfolio() {
         </figure>
 
         <figure class="container">
-          <img src="./images/TechBlog.jpg" alt="Tech Blog" class="image"></img>
+          <img src={TechBlog} alt="Tech Blog" class="image"></img>
           <div class="middle">
             <div class="text">
               <a class="text" href="https://haileyf-techblog-app.herokuapp.com/" target="_blank" rel="noreferrer">Tech Blog</a>
@@ -44,7 +50,7 @@ export default function Portfolio() {
         </figure>
 
         <figure class="container">
-          <img src="./images/WeatherDashboard.jpg" alt="Weather Dashboard" class="image"></img>
+          <img src={WeatherDashboard} alt="Weather Dashboard" class="image"></img>
           <div class="middle">
             <div class="text">
               <a class="text" href="https://hfrancis7.github.io/Module6-WeatherDashboard/" target="_blank" rel="noreferrer">Weather Dashboard</a>
@@ -56,7 +62,7 @@ export default function Portfolio() {
         </figure>
 
         <figure class="container">
-          <img src="./images/CodingQuiz.jpg" alt="Coding Quiz" class="image"></img>
+          <img src={CodingQuiz} alt="Coding Quiz" class="image"></img>
           <div class="middle">
             <div class="text">
               <a class="text" href="https://hfrancis7.github.io/Module4Challenge-CodingQuiz/" target="_blank" rel="noreferrer">Coding Quiz</a>
@@ -68,7 +74,7 @@ export default function Portfolio() {
         </figure>
 
         <figure class="container">
-          <img src="./images/prework.png" alt="Prework Study Guide" class="image"></img>
+          <img src={prework} alt="Prework Study Guide" class="image"></img>
           <div class="middle">
             <div class="text">
               <a class="text" href="https://hfrancis7.github.io/prework-study-guide/" target="_blank" rel="noreferrer">Prework Study Guide</a>
