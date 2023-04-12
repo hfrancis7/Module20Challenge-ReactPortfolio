@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Module20Challenge-ReactPortfolio/static/css/main.adbb3702.css",
+    "main.css": "/Module20Challenge-ReactPortfolio/static/css/main.cdffc1b6.css",
     "main.js": "/Module20Challenge-ReactPortfolio/static/js/main.10e4ec5c.js",
     "static/media/BeatsEats.png": "/Module20Challenge-ReactPortfolio/static/media/BeatsEats.21023599d7239ae45242.png",
     "static/media/WeatherDashboard.jpg": "/Module20Challenge-ReactPortfolio/static/media/WeatherDashboard.0655b530076b25e03403.jpg",
@@ -11,11 +11,11 @@
     "static/media/profilePic.png": "/Module20Challenge-ReactPortfolio/static/media/profilePic.583fee857dcb7fac7fa4.png",
     "static/media/linkedin-mark.png": "/Module20Challenge-ReactPortfolio/static/media/linkedin-mark.6d58dbe88058f8dab0f9.png",
     "index.html": "/Module20Challenge-ReactPortfolio/index.html",
-    "main.adbb3702.css.map": "/Module20Challenge-ReactPortfolio/static/css/main.adbb3702.css.map",
+    "main.cdffc1b6.css.map": "/Module20Challenge-ReactPortfolio/static/css/main.cdffc1b6.css.map",
     "main.10e4ec5c.js.map": "/Module20Challenge-ReactPortfolio/static/js/main.10e4ec5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.adbb3702.css",
+    "static/css/main.cdffc1b6.css",
     "static/js/main.10e4ec5c.js"
   ]
 }
