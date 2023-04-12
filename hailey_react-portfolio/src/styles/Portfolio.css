@@ -9,7 +9,7 @@
 }
 
 .flex-wrap-item{
-  
+  flex: 1 1 600px;
 }
 
 .container {
