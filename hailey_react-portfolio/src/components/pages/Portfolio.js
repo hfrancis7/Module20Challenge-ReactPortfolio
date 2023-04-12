@@ -7,7 +7,7 @@ export default function Portfolio() {
     <h1>Portfolio</h1>
 
     <div class="portfolio-flex-wrap">
-        <figure class="project-container">
+        <figure class="container">
           <img src="./images/recibeet.jpg" alt="ReciBEET" class="image"></img>
           <div class="middle">
             <div class="text text-success">
@@ -19,7 +19,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="project-container">
+        <figure class="container">
           <img src="./images/BeatsEats.png" alt="Beats And Eats" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -31,7 +31,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="project-container">
+        <figure class="container">
           <img src="./images/TechBlog.jpg" alt="Tech Blog" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -43,7 +43,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="project-container">
+        <figure class="container">
           <img src="./images/WeatherDashboard.jpg" alt="Weather Dashboard" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -55,7 +55,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="project-container">
+        <figure class="container">
           <img src="./images/CodingQuiz.jpg" alt="Coding Quiz" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -67,7 +67,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="project-container">
+        <figure class="container">
           <img src="./images/prework.png" alt="Prework Study Guide" class="image"></img>
           <div class="middle">
             <div class="text">
