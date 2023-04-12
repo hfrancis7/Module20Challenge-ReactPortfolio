@@ -7,9 +7,10 @@
   padding: 10px;
 }
 
-.container {
+.project-container {
   position: relative;
   width: 50%;
+
 }
 
 .image {

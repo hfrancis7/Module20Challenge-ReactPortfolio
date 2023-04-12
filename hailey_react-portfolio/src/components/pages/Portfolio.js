@@ -7,10 +7,10 @@ export default function Portfolio() {
     <h1>Portfolio</h1>
 
     <div class="portfolio-flex-wrap">
-        <figure class="container">
+        <figure class="project-container">
           <img src="./images/recibeet.jpg" alt="ReciBEET" class="image"></img>
           <div class="middle">
-            <div class="text">
+            <div class="text text-success">
               <a class="text" href="https://recibeet-2.herokuapp.com/" target="_blank" rel="noreferrer">ReciBEET</a>
               <a href="https://github.com/torresorona/ReciBEET" target="_blank" rel="noreferrer">
                 <img src="./images/github-mark-white.png" alt="github logo" class="github-icon"></img>
@@ -19,7 +19,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="container">
+        <figure class="project-container">
           <img src="./images/BeatsEats.png" alt="Beats And Eats" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -31,7 +31,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="container">
+        <figure class="project-container">
           <img src="./images/TechBlog.jpg" alt="Tech Blog" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -43,7 +43,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="container">
+        <figure class="project-container">
           <img src="./images/WeatherDashboard.jpg" alt="Weather Dashboard" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -55,7 +55,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="container">
+        <figure class="project-container">
           <img src="./images/CodingQuiz.jpg" alt="Coding Quiz" class="image"></img>
           <div class="middle">
             <div class="text">
@@ -67,7 +67,7 @@ export default function Portfolio() {
           </div>
         </figure>
 
-        <figure class="container">
+        <figure class="project-container">
           <img src="./images/prework.png" alt="Prework Study Guide" class="image"></img>
           <div class="middle">
             <div class="text">
