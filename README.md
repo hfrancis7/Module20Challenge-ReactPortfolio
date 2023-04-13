@@ -19,6 +19,7 @@
   - [Deployed App](#deployed-app)
   - [License](#license)
   - [Technologies Used](#technologies-used)
+  - [Refactor Repo](#refactor-repo)
   - [Questions](#questions)
   
   ## Installation
@@ -39,6 +40,10 @@
   
   ## Technologies Used
   - [REACT](https://react.dev/)
+  
+  ## Refactor Repo
+  This is to show commits of refactored Portfolio. Will migrate to being true portfolio. <br>
+  https://github.com/hfrancis7/HF-Portfolio
   
   ## Questions
   
